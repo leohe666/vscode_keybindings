@@ -1,3 +1,2 @@
-# hello-world
-file path
+# file path
 C:\Users\xxx\AppData\Roaming\Code\User\keybindings.json
