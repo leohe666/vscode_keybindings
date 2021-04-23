@@ -1,0 +1,28 @@
+[
+    {
+        "key": "ctrl+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "ctrl+shift+u",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "alt+u",
+        "command": "sftp.upload.activeFile"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "workbench.action.quickOpenNavigatePreviousInRecentFilesPicker"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "-workbench.action.quickOpenNavigatePreviousInRecentFilesPicker",
+        "when": "inQuickOpen && inRecentFilesPicker"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "-editor.action.refactor",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    }
+]
