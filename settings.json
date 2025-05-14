@@ -1,4 +1,7 @@
 {
+    // "http.proxy": "http://127.0.0.1:7890",
+    // "https.proxy": "http://127.0.0.1:7890",
+    // "http.proxyStrictSSL": false,
     "workbench.editor.enablePreview": false,
     "editor.wordWrap": "on"
 }
